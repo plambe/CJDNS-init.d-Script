@@ -8,3 +8,6 @@ not sure about others) allow you to use the `service` command, which shortens
 the command to `service cjdns <start|stop|restart|upgrade>`.
 
 Message thefinn93 on EFNet if you have issues
+
+Some additions by plambe
+
