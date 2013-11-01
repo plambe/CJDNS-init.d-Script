@@ -1,13 +1,6 @@
-#Installation:
-Run setup.sh
+Source from https://gist.github.com/cantor/3435341 and https://github.com/plambe/CJDNS-init.d-Script/
 
-
-This will cause it to automatically start with your computer. You can control
-it with `/etc/init.d/cjdns <start|stop|restart|upgrade>`. Some systems (Ubuntu,
-not sure about others) allow you to use the `service` command, which shortens
-the command to `service cjdns <start|stop|restart|upgrade>`.
-
-Message thefinn93 on EFNet if you have issues
-
-Some additions by plambe
+New features: 
+This script copies itself in /etc/init.d and runs "update-rc.d cjdns defaults". 
+Also, it uses the init-functions. 
 
