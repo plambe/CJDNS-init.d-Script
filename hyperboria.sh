@@ -234,7 +234,6 @@ case $1 in
     update|upgrade)
         update
         sleep 5
-        echo "restarting cjdns"
         restart
         exit 0
     ;;
