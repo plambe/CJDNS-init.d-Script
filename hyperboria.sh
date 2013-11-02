@@ -168,6 +168,7 @@ setup() {
     echo
     echo "You have compiled \o/! add peers to $CJDNS_CONFIG"
     echo
+    echo "Copying $HYPERBORIA_PATH/hyperboria.sh to /etc/init.d/cjdns"
     cp $HYPERBORIA_PATH/hyperboria.sh /etc/init.d/cjdns
     chmod +x /etc/init.d/cjdns
     update-rc.d cjdns defaults
