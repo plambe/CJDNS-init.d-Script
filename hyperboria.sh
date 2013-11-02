@@ -172,6 +172,7 @@ setup() {
     chmod +x /etc/init.d/cjdns
     update-rc.d cjdns defaults
     mkdir -p $CJDNS_LOGFOLDER
+    touch $CJDNS_LOG
 }
 
 delete() {
