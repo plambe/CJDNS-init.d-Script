@@ -46,7 +46,7 @@
 PROG="cjdroute"
 PROC="cjdns"
 GIT_PATH="/opt/cjdns"
-CJDNS_CONFIG="/etc/cjdns/cjdroute.conf"
+CJDNS_CONFIG="/etc/cjdroute.conf"
 CJDNS_LOGFOLDER="/var/log/cjdns"           #if you are using /dev/null, dont change this to /dev/ or /dev/null
 CJDNS_LOG="/var/log/cjdns/cjdroute.log"    # use /dev/null here if you do not want any logs. You d not need to change $CJDNS_LOGFOLDER when using /dev/null
 CJDNS_USER="root"                          #see wiki about changing this user to a service user.
