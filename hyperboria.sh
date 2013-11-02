@@ -130,7 +130,6 @@ update() {
     echo "Building..."
     ./do
     sleep 1
-
 }
 
 setup() {
@@ -233,12 +232,10 @@ case $1 in
         exit 0
     ;;
     update|upgrade)
-        stop
-        echo "shutting down cjdns" 1>&2
-        sleep 5
         update
         sleep 5
-        start
+        echo "restarting cjdns"
+        restart
         exit 0
     ;;
     install|setup)
